@@ -8,6 +8,5 @@ export default defineConfig({
     out: "./drizzle/dist",
     schema: "./src/models",
     schemaFilter: ["public"],
-    strict: true,
     verbose: true
 });
